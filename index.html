@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela de Login</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <section class="container">
+        <form class="container-login" action="#">
+          <h1>Get Started Now</h1>
+
+          <div class="field">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your e-mail"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" id="terms" required />
+            <label for="terms">
+              I agree with the <a href="#">site's policies</a>
+            </label>
+          </div>
+
+          <button type="submit">Signup</button>
+
+          <div class="divider">
+            <span>or</span>
+          </div>
+
+          <div class="btn-container">
+            <a href="#" class="btn">Sign in with Google</a>
+            <a href="#" class="btn">Sign in with Apple</a>
+          </div>
+
+          <p class="login-link">Have an account? <a href="#">Sign In</a></p>
+        </form>
+      </section>
+
+      <section class="image-container">
+        <img src="/assets/img/img-background-login-v2.jpg" alt="Background" />
+      </section>
+    </main>
+  </body>
+</html>
